@@ -22,7 +22,7 @@ https://github.com/user-attachments/assets/014dd1da-c520-4ffc-adf5-6a677e8750cc
 
 - Hand gestures are captured using a webcam.
 - MediaPipe is used to detect hand landmarks.
-- Landmark coordinates (x, y, z) are extracted for each gesture.
+- Landmark coordinates (x, y) are extracted for each gesture.
 - These landmarks are saved and labeled to form the dataset.
 - The dataset contains structured numerical data instead of raw images.
 
