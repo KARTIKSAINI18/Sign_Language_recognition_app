@@ -1,34 +1,54 @@
 # Sign Language Recognition App
 
-A real-time application that recognizes hand sign gestures and converts them into text using computer vision and deep learning.
+This project is a real-time sign language to text recognition system built using computer vision and deep learning.
 
-## Features
-- Real-time hand detection
-- Sign language gesture recognition
-- Text output on screen
+The main focus of this project is the **process**:
+how data is created, how it is trained, and how it is used for real-time prediction.
 
-## Tech Stack
-- Python
-- OpenCV
-- MediaPipe
-- TensorFlow / Keras
-- NumPy
+---
+
+## Data Creation (How Dataset is Made)
+
+- Hand gestures are captured using a webcam.
+- MediaPipe is used to detect hand landmarks.
+- Landmark coordinates (x, y, z) are extracted for each gesture.
+- These landmarks are saved and labeled to form the dataset.
+- The dataset contains structured numerical data instead of raw images.
+
+---
+
+## What is Used
+
+- **Python** – core programming language  
+- **OpenCV** – webcam access and real-time video processing  
+- **MediaPipe** – hand detection and landmark extraction  
+- **TensorFlow / Keras** – training the deep learning model  
+- **NumPy** – data handling and preprocessing  
+
+---
+
+## What is Done (Working Flow)
+
+1. Webcam captures real-time video.
+2. MediaPipe detects the hand and extracts landmarks.
+3. The landmarks are passed to the trained model.
+4. The model predicts the corresponding sign.
+5. The predicted sign is displayed as text on the screen.
+
+---
 
 ## How to Run
 
-1. Clone the repository
-   git clone https://github.com/KARTIKSAINI18/Sign_Language_recognition_app.git
+1. Clone the repository  
 
-2. Install dependencies
-   pip install -r requirements.txt
+2. Install dependencies  
 
-3. Run the app
-   python app.py
+3. Run the application  
 
-## Current Status
-- Sign to Text: ✅ Working
-- Text to Speech: ❌ Not added yet
+---
 
-## Future Scope
-- Add text-to-speech conversion
-- Improve accuracy with more training data
+## Project Scope
+
+- Converts sign language gestures into text
+- Works in real-time using a webcam
+- Focused on learning and implementation of computer vision + deep learning
