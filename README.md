@@ -10,6 +10,14 @@ how data is created, how it is trained, and how it is used for real-time predict
 ![ASL](https://github.com/user-attachments/assets/13090d89-9749-4b8d-9bf7-c28f5a5f1f56)
 
 
+
+
+
+
+https://github.com/user-attachments/assets/014dd1da-c520-4ffc-adf5-6a677e8750cc
+
+
+
 ## Data Creation (How Dataset is Made)
 
 - Hand gestures are captured using a webcam.
